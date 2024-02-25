@@ -1,0 +1,141 @@
+.fondo {
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+.mano {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card-img {
+
+    filter: brightness(0.5);
+    height: 40vh;
+}
+
+.card-title {
+    font-size: 25px;
+
+}
+
+.card-text {
+    font-size: 15px;
+    text-align: center;
+    width: 75%;
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .card-title {
+        font-size: 300%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .card-text {
+        font-size: 150%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .card-text {
+        font-size: 150%;
+    }
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+
+.cuadroForm {
+    background-color: rgba(19, 17, 17, 0.774);
+    border-radius: 20px;
+    height: 600px;
+    margin-top: 7rem;
+
+
+}
+
+.bg-btn {
+    background-color: white;
+}
+
+.bg-img {
+    background-image: url(../img/imagen1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2 {
+    margin-top: 8rem;
+    font-size: 2rem;
+    -webkit-text-stroke: 2px rgb(24, 56, 11);
+    font-weight: 800;
+}
+
+@media screen and (min-width:1200px) {
+
+    h1,
+    h2 {
+        font-size: 400%;
+    }
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-flotante {
+    font-size: 16px;
+    /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase;
+    /* Texto en mayusculas */
+    font-weight: bold;
+    /* Fuente en negrita o bold */
+    color: #ffffff;
+    /* Color del texto */
+    border-radius: 60px;
+    /* Borde del boton */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    background-color: #269105;
+    /* Color de fondo */
+    padding: 18px 20px;
+    /* Relleno del boton */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.btn-flotante:hover {
+    background-color: #2c2fa5;
+    /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
