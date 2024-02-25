@@ -139,3 +139,11 @@ h2 {
         right: 20px;
     }
 }
+
+.mail:hover {
+    color: #3cda0c;
+}
+
+.mail {
+    color: #3cda0c;
+}
