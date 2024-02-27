@@ -74,6 +74,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: brightness(1);
 }
 
 h1,
@@ -146,4 +147,14 @@ h2 {
 
 .mail {
     color: #3cda0c;
+}
+
+.etiquetas {
+    text-shadow: rgb(15, 17, 100) 2px 0 10px;
+    font-size: x-large;
+}
+
+.destacado {
+    color: #3cda0c;
+
 }
